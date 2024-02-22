@@ -3,12 +3,12 @@ const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { JWT_KEY } = require('../config/serverConfig');
 
-class UserService{
-    constructor(){
+class UserService {
+    constructor() {
         this.userRepository = new UserRepository();
     }
 
-    async create(data){
+    async create(data) {
         try {
             const user = await this.userRepository.create(data);
             return user;
@@ -17,9 +17,26 @@ class UserService{
             throw error;
         }
     }
-    createToken(user){
+
+    async signIn(email, plainPassword) {
         try {
-            const result = jwt.sign(user, JWT_KEY, {expiresIn : '1h'} );
+            const user = await this.userRepository.getByEmail(email);
+            const compare = this.checkPassword(plainPassword, user.password);
+            if (!compare) {
+                console.log("Password doesn't match");
+                throw { error: 'Incorrect password' };
+            }
+            const newJWT = this.createToken({ email: user.email,id: user.id });
+            return newJWT;
+        } catch (error) {
+            console.log("Something went wrong in the sign in process");
+            throw error;
+        }
+    }
+
+    createToken(user) {
+        try {
+            const result = jwt.sign(user, JWT_KEY, { expiresIn: '1h' });
             return result;
         } catch (error) {
             console.log("Something went wrong in token creation");
@@ -27,7 +44,7 @@ class UserService{
         }
     }
 
-    verifyToken(token){
+    verifyToken(token) {
         try {
             const response = jwt.verify(token, JWT_KEY);
             return response;
@@ -37,11 +54,12 @@ class UserService{
         }
     }
 
-    checkPassword(userInputPlainPassword, encryptedPassword){
+    checkPassword(userInputPlainPassword, encryptedPassword) {
         try {
-            return bcrypt.compareSync(userInputPlainPassword,encryptedPassword);
+            return bcrypt.compareSync(userInputPlainPassword, encryptedPassword);
         } catch (error) {
             console.log("Soemthing went wrong while comparing password refer checkPassword fn");
+            throw error;
         }
     }
 }
