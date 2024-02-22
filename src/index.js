@@ -24,11 +24,11 @@ const prepareAndStartServer = () => {
         // const repo = new UserRepository();
         // const response =await repo.getById(3);
         // console.log(response.email);
-        const service = new UserService();
-        const newToken = service.createToken({email: 'cvent@admin.com', id: 1});
-        console.log('new token is', {newToken} );
-        const response = service.verifyToken(newToken);
-        console.log(response);
+        // const service = new UserService();
+        // const newToken = service.createToken({email: 'cvent@admin.com', id: 1});
+        // console.log('new token is', {newToken} );
+        // const response = service.verifyToken(newToken);
+        // console.log(response);
         //  
     });
 }
