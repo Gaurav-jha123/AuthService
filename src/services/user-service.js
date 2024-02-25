@@ -26,10 +26,27 @@ class UserService {
                 console.log("Password doesn't match");
                 throw { error: 'Incorrect password' };
             }
-            const newJWT = this.createToken({ email: user.email,id: user.id });
+            const newJWT = this.createToken({ email: user.email, id: user.id });
             return newJWT;
         } catch (error) {
             console.log("Something went wrong in the sign in process");
+            throw error;
+        }
+    }
+
+    async isAuthenticated(token) {
+        try {
+            const response = this.verifyToken(token);
+            if (!response) {
+                throw { error: 'Invalid token' }
+            }
+            const user = this.userRepository.getById(response.id);
+            if (!user) {
+                throw { error: "No user with the corresponding token exists" };
+            }
+            return user.id;
+        } catch (error) {
+            console.log("Something went wrong in the auth process");
             throw error;
         }
     }
@@ -58,7 +75,7 @@ class UserService {
         try {
             return bcrypt.compareSync(userInputPlainPassword, encryptedPassword);
         } catch (error) {
-            console.log("Soemthing went wrong while comparing password refer checkPassword fn");
+            console.log("Something went wrong while comparing password refer checkPassword fn");
             throw error;
         }
     }

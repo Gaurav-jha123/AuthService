@@ -5,7 +5,8 @@ const { AuthRequestValidators } = require('../../middlewares/index');
 
 const router = express.Router();
 
-router.post('/signup',AuthRequestValidators.validateUserAuthentication, UserController.create);
-router.post('/signin',AuthRequestValidators.validateUserAuthentication, UserController.signIn);
+router.post('/signup', AuthRequestValidators.validateUserAuthentication, UserController.create);
+router.post('/signin', AuthRequestValidators.validateUserAuthentication, UserController.signIn);
+router.get('/isAuthenticated', UserController.isAuthenticated,)
 
 module.exports = router;
