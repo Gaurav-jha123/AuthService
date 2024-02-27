@@ -12,6 +12,23 @@ const validateUserAuthentication = (req,res, next) => {
     next();
 }
 
+const validateIsAdminRequest=(req,res,next)=>
+{
+    if(!req.body.id)
+    {
+        return res.status(ClientErrorCodes.BAD_REQUEST).json(
+            {
+                success:false,
+                data:{},
+                err:"User id not given",
+                message:"Something went wrong"
+            }
+        )
+    }
+    next();
+}
+
 module.exports = {
-    validateUserAuthentication
+    validateUserAuthentication,
+    validateIsAdminRequest
 }
