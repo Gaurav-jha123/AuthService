@@ -1,4 +1,5 @@
 const UserRepository = require('../repository/user-repository');
+const AppErrors = require('../utils/error-handler');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { JWT_KEY } = require('../config/serverConfig');
@@ -32,6 +33,10 @@ class UserService {
             const newJWT = this.createToken({ email: user.email, id: user.id });
             return newJWT;
         } catch (error) {
+            if(error.name=='AttributeNotFound')
+            {
+                throw error;
+            }
             console.log("Something went wrong in the sign in process");
             throw error;
         }

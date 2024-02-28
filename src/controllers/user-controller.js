@@ -40,11 +40,11 @@ const signIn = async (req, res) => {
             message: 'Successfully Signed in',
         });
     } catch (error) {
-        console.log("something wrong while signing in");
-        return res.status(ClientErrorCodes.UNAUTHORISED).json({
-            message: 'Wrong credentials have you signed up? if not go to /signup',
-            success: false,
-            err: error
+        return  res.status(error.statusCode).json({
+            message:error.message,
+            data:{},
+            success:false,
+            err:error.explanation 
         });
     }
 }
