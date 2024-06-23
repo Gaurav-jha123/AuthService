@@ -1,34 +1,36 @@
-const { ClientErrorCodes } = require('../utils/error-codes');
+// middlewares/user-middlewares.js
 
-const validateUserAuthentication = (req,res, next) => {
-    if(!req.body.email || !req.body.password){
+const logger = require('../utils/logger');
+const { ClientErrorCodes } = require('../utils/error-codes');
+const { userSchema, roleSchema } = require('../utils/validation-schemas');
+
+const validateUserAuthentication = (req, res, next) => {
+    const { error } = userSchema.validate(req.body);
+    if (error) {
+        logger.error(`Validation error: ${error.details[0].message}`);
         return res.status(ClientErrorCodes.BAD_REQUEST).json({
-            sucess : true,
-            data : {},
-            message: 'Something went wrong',
-            err: 'Email or password missing in the request'
+            success: false,
+            data: {},
+            message: 'Validation error',
+            err: error.details[0].message,
         });
     }
     next();
-}
+};
 
-const validateIsAdminRequest=(req,res,next)=>
-{
-    if(!req.body.id)
-    {
-        return res.status(ClientErrorCodes.BAD_REQUEST).json(
-            {
-                success:false,
-                data:{},
-                err:"User id not given",
-                message:"Something went wrong"
-            }
-        )
+const validateIsAdminRequest = (req, res, next) => {
+    if (!req.body.id) {
+        logger.error('User id not given');
+        return res.status(ClientErrorCodes.BAD_REQUEST).json({
+            success: false,
+            data: {},
+            message: 'User id not given',
+        });
     }
     next();
-}
+};
 
 module.exports = {
     validateUserAuthentication,
-    validateIsAdminRequest
-}
+    validateIsAdminRequest,
+};
