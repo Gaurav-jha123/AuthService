@@ -1,4 +1,3 @@
-// services/user-service.js
 const UserRepository = require('../repository/user-repository');
 const logger = require('../utils/logger');
 const bcrypt = require('bcrypt');
