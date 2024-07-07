@@ -80,3 +80,278 @@
 {"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-05 10:15:01","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R1c2VyQGV4YW1wbGUuY29tIiwiaWQiOjEsImlhdCI6MTcyMDE1Mzg4NiwiZXhwIjoxNzIwMTU3NDg2fQ.rT4raFEagwnCbN-tEfRUy5mm3X0S6PhWHiq45JM-SkQ"}
 {"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-05 10:15:01","userId":1}
 {"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-05 10:15:01"}
+{"error":{"expiredAt":"2024-07-03T15:18:41.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 01:14:45","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R1c2VyQGV4YW1wbGUuY29tIiwiaWQiOjEsImlhdCI6MTcyMDAxNjMyMSwiZXhwIjoxNzIwMDE5OTIxfQ.5GrOfvXsbCBm0vb2a5dUuLHSZ-Ca99-xXtugyz57sHM"}
+{"error":{"expiredAt":"2024-07-03T15:18:41.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 01:14:45","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R1c2VyQGV4YW1wbGUuY29tIiwiaWQiOjEsImlhdCI6MTcyMDAxNjMyMSwiZXhwIjoxNzIwMDE5OTIxfQ.5GrOfvXsbCBm0vb2a5dUuLHSZ-Ca99-xXtugyz57sHM"}
+{"error":{"expiredAt":"2024-07-03T15:18:41.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 01:14:45"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 01:14:51","user":{"email":"testuser@example.com","id":1}}
+{"email":"testuser@example.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 01:14:51"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 01:14:51"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:16:13","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R1c2VyQGV4YW1wbGUuY29tIiwiaWQiOjEsImlhdCI6MTcyMDIwODY5MSwiZXhwIjoxNzIwMjEyMjkxfQ.dDVJCmf0rWZ1gb4LtCC22KKmyofB-Mlfm_UBnBQ4UpE"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:16:14","userId":1}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:16:14"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 01:18:47"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 01:18:47"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 01:18:47"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 01:19:29"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 01:19:29"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 01:19:29"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:20:09","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R1c2VyQGV4YW1wbGUuY29tIiwiaWQiOjEsImlhdCI6MTcyMDIwODY5MSwiZXhwIjoxNzIwMjEyMjkxfQ.dDVJCmf0rWZ1gb4LtCC22KKmyofB-Mlfm_UBnBQ4UpE"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:20:10","userId":1}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:20:10"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:21:17","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R1c2VyQGV4YW1wbGUuY29tIiwiaWQiOjEsImlhdCI6MTcyMDIwODY5MSwiZXhwIjoxNzIwMjEyMjkxfQ.dDVJCmf0rWZ1gb4LtCC22KKmyofB-Mlfm_UBnBQ4UpE"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:21:17","userId":1}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:21:17"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 01:21:23"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 01:21:23"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 01:21:23"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:22:44","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3R1c2VyQGV4YW1wbGUuY29tIiwiaWQiOjEsImlhdCI6MTcyMDIwODY5MSwiZXhwIjoxNzIwMjEyMjkxfQ.dDVJCmf0rWZ1gb4LtCC22KKmyofB-Mlfm_UBnBQ4UpE"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:22:45","userId":1}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:22:45"}
+{"level":"error","message":"Validation error: \"email\" must be a valid email","service":"user-service","timestamp":"2024-07-06 01:27:40"}
+{"email":"cvb@example.com","error":{"explanation":"Please check the email as there is no record of the email","message":"Invalid Email sent in the request","name":"AttributeNotFound","statusCode":404},"level":"error","message":"Email not found in user service","service":"user-service","timestamp":"2024-07-06 01:27:51"}
+{"error":{"explanation":"Please check the email as there is no record of the email","message":"Invalid Email sent in the request","name":"AttributeNotFound","statusCode":404},"level":"error","message":"Error in sign in","service":"user-service","timestamp":"2024-07-06 01:27:51"}
+{"email":"cvb@email.com","level":"error","message":"Password doesn't match for user","service":"user-service","timestamp":"2024-07-06 01:28:32"}
+{"email":"cvb@email.com","error":{"error":"Incorrect password"},"level":"error","message":"Service error in signing in user","service":"user-service","timestamp":"2024-07-06 01:28:32"}
+{"error":{"error":"Incorrect password"},"level":"error","message":"Error in sign in","service":"user-service","timestamp":"2024-07-06 01:28:32"}
+{"level":"info","message":"User created in service","service":"user-service","timestamp":"2024-07-06 01:29:03","userId":14}
+{"level":"info","message":"User created successfully","service":"user-service","timestamp":"2024-07-06 01:29:03","userId":14}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 01:29:23","user":{"email":"gaurav@dev.com","id":14}}
+{"email":"gaurav@dev.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 01:29:23"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 01:29:23"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 01:34:11","user":{"email":"gaurav@dev.com","id":14}}
+{"email":"gaurav@dev.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 01:34:11"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 01:34:11"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 01:34:56","user":{"email":"gaurav@dev.com","id":14}}
+{"email":"gaurav@dev.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 01:34:56"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 01:34:56"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 01:36:03","user":{"email":"gaurav@dev.com","id":14}}
+{"email":"gaurav@dev.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 01:36:03"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 01:36:03"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 01:36:52","user":{"email":"gaurav@dev.com","id":14}}
+{"email":"gaurav@dev.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 01:36:52"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 01:36:52"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 01:37:13","user":{"email":"gaurav@dev.com","id":14}}
+{"email":"gaurav@dev.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 01:37:13"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 01:37:13"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:37:20","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:37:21","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:37:21"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 01:42:36"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 01:42:36"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 01:42:36"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 01:43:54","token":""}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 01:43:54","token":""}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 01:43:54"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:44:06","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:44:07","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:44:07"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:47:37","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:47:37","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:47:37"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:48:06","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:48:06","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:48:06"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:53:33","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:53:33","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:53:33"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 01:53:41"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 01:53:41"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 01:53:41"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:53:44","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:53:45","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:53:45"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:54:46","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:54:46","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:54:46"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:55:51","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:55:52","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:55:52"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:55:56","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTAwMzMsImV4cCI6MTcyMDIxMzYzM30.jSECV-ijLO4Dretokk2IaYJop2vDzVF6C5JUi_sVKpA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 01:55:57","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 01:55:57"}
+{"level":"error","message":"Validation error: \"email\" must be a valid email","service":"user-service","timestamp":"2024-07-06 02:02:25"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 02:02:42","user":{"email":"gaurav@dev.com","id":14}}
+{"email":"gaurav@dev.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 02:02:42"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 02:02:42"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 02:02:59","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTE1NjIsImV4cCI6MTcyMDIxNTE2Mn0.zhCg2qUUwbAKNOIvM61kD4oJIXkVEPpDcVCArBtPWMo"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 02:02:59","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 02:02:59"}
+{"isAdmin":true,"level":"info","message":"Admin status checked successfully","service":"user-service","timestamp":"2024-07-06 02:03:18","userId":"6"}
+{"level":"info","message":"Checked admin status successfully","service":"user-service","timestamp":"2024-07-06 02:03:18","userId":"6"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 02:08:36","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTE1NjIsImV4cCI6MTcyMDIxNTE2Mn0.zhCg2qUUwbAKNOIvM61kD4oJIXkVEPpDcVCArBtPWMo"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 02:08:37","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 02:08:37"}
+{"error":{"expiredAt":"2024-07-05T21:32:42.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 10:21:16","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTE1NjIsImV4cCI6MTcyMDIxNTE2Mn0.zhCg2qUUwbAKNOIvM61kD4oJIXkVEPpDcVCArBtPWMo"}
+{"error":{"expiredAt":"2024-07-05T21:32:42.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 10:21:16","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTE1NjIsImV4cCI6MTcyMDIxNTE2Mn0.zhCg2qUUwbAKNOIvM61kD4oJIXkVEPpDcVCArBtPWMo"}
+{"error":{"expiredAt":"2024-07-05T21:32:42.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 10:21:16"}
+{"error":{"expiredAt":"2024-07-05T21:32:42.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 10:21:34","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTE1NjIsImV4cCI6MTcyMDIxNTE2Mn0.zhCg2qUUwbAKNOIvM61kD4oJIXkVEPpDcVCArBtPWMo"}
+{"error":{"expiredAt":"2024-07-05T21:32:42.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 10:21:34","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyMTE1NjIsImV4cCI6MTcyMDIxNTE2Mn0.zhCg2qUUwbAKNOIvM61kD4oJIXkVEPpDcVCArBtPWMo"}
+{"error":{"expiredAt":"2024-07-05T21:32:42.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 10:21:34"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 10:21:44","user":{"email":"gaurav@dev.com","id":14}}
+{"email":"gaurav@dev.com","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 10:21:44"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 10:21:44"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:21:52","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:21:52","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:21:52"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:22:16","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:22:17","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:22:17"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:25:34","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:25:34","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:25:34"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 10:25:43"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 10:25:43"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 10:25:43"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:25:46","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:25:46","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:25:46"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:28:08","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:28:08","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:28:08"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:30:51","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:30:52","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:30:52"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:31:06","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:31:06","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:31:06"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:31:57","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:31:58","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:31:58"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:36:51","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:36:52","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:36:52"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:37:52","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:37:52","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:37:52"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:38:12","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:38:13","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:38:13"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:42:13","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:42:13","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:42:13"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:43:03","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:43:03","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:43:03"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:43:47","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:43:47","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:43:47"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:46:30","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:46:31","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:46:31"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:47:33","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:47:33","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:47:33"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:48:05","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:48:06","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:48:06"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:48:43","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:48:44","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:48:44"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:49:17","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:49:17","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:49:17"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:49:24","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:49:24","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:49:24"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:50:07","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:50:08","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:50:08"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:50:21","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:50:22","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:50:22"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:50:28","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:50:28","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:50:28"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:50:39","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhdXJhdkBkZXYuY29tIiwiaWQiOjE0LCJpYXQiOjE3MjAyNDE1MDQsImV4cCI6MTcyMDI0NTEwNH0.fUXt7Ztsj3iTk4SFxMCbuN9ABsSTOGJiyvR9e3zb31w"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:50:40","userId":14}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:50:40"}
+{"level":"info","message":"User created in service","service":"user-service","timestamp":"2024-07-06 10:55:54","userId":15}
+{"level":"info","message":"User created successfully","service":"user-service","timestamp":"2024-07-06 10:55:54","userId":15}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 10:56:15","user":{"email":"suraj.devLead@epam.in","id":15}}
+{"email":"suraj.devLead@epam.in","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 10:56:15"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 10:56:15"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:56:33","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmRldkxlYWRAZXBhbS5pbiIsImlkIjoxNSwiaWF0IjoxNzIwMjQzNTc1LCJleHAiOjE3MjAyNDcxNzV9.3PEzchzxkUM5DQd4C_uC1AmqBaNDhw62lCnYIHHmEzs"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:56:34","userId":15}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:56:34"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:56:42","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmRldkxlYWRAZXBhbS5pbiIsImlkIjoxNSwiaWF0IjoxNzIwMjQzNTc1LCJleHAiOjE3MjAyNDcxNzV9.3PEzchzxkUM5DQd4C_uC1AmqBaNDhw62lCnYIHHmEzs"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 10:56:42","userId":15}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 10:56:42"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 12:15:51","user":{"email":"suraj.devLead@epam.in","id":15}}
+{"email":"suraj.devLead@epam.in","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 12:15:51"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 12:15:51"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 12:15:53","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmRldkxlYWRAZXBhbS5pbiIsImlkIjoxNSwiaWF0IjoxNzIwMjQ4MzUxLCJleHAiOjE3MjAyNTE5NTF9.4o5cNSTq2J3Bo3P9hOQ7arTSLfxT6wgfxIt8UZRXSqE"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 12:15:53","userId":15}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 12:15:53"}
+{"error":{"expiredAt":"2024-07-06T07:45:51.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 16:25:15","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmRldkxlYWRAZXBhbS5pbiIsImlkIjoxNSwiaWF0IjoxNzIwMjQ4MzUxLCJleHAiOjE3MjAyNTE5NTF9.4o5cNSTq2J3Bo3P9hOQ7arTSLfxT6wgfxIt8UZRXSqE"}
+{"error":{"expiredAt":"2024-07-06T07:45:51.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 16:25:15","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmRldkxlYWRAZXBhbS5pbiIsImlkIjoxNSwiaWF0IjoxNzIwMjQ4MzUxLCJleHAiOjE3MjAyNTE5NTF9.4o5cNSTq2J3Bo3P9hOQ7arTSLfxT6wgfxIt8UZRXSqE"}
+{"error":{"expiredAt":"2024-07-06T07:45:51.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 16:25:15"}
+{"level":"info","message":"User created in service","service":"user-service","timestamp":"2024-07-06 16:45:07","userId":16}
+{"level":"info","message":"User created successfully","service":"user-service","timestamp":"2024-07-06 16:45:07","userId":16}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-06 16:45:25","user":{"email":"suraj.chiefEngineer@epam.in","id":16}}
+{"email":"suraj.chiefEngineer@epam.in","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-06 16:45:25"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-06 16:45:25"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-06 16:46:10"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-06 16:46:10"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-06 16:46:10"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 16:46:16","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMjY0NTI1LCJleHAiOjE3MjAyNjgxMjV9.h3WoI_YRMHADwW-nd9qDTJpmysPgLH_l4lxeDhrL7Eg"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 16:46:17","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 16:46:17"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 16:46:54","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMjY0NTI1LCJleHAiOjE3MjAyNjgxMjV9.h3WoI_YRMHADwW-nd9qDTJpmysPgLH_l4lxeDhrL7Eg"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 16:46:55","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 16:46:55"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 16:46:59","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMjY0NTI1LCJleHAiOjE3MjAyNjgxMjV9.h3WoI_YRMHADwW-nd9qDTJpmysPgLH_l4lxeDhrL7Eg"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 16:46:59","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 16:46:59"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 16:47:06","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMjY0NTI1LCJleHAiOjE3MjAyNjgxMjV9.h3WoI_YRMHADwW-nd9qDTJpmysPgLH_l4lxeDhrL7Eg"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-06 16:47:06","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-06 16:47:06"}
+{"error":{"error":{"errors":[{"instance":{"createdAt":"2024-07-07T09:15:40.108Z","email":"suraj.chiefEngineer@epam.in","id":null,"password":"$2b$10$Nfmgei.T90n3LkOj31Aw5eYfjQhPRKV0RsyldE3DrfuklFoUicEZe","updatedAt":"2024-07-07T09:15:40.108Z"},"message":"email must be unique","origin":"DB","path":"email","type":"unique violation","validatorArgs":[],"validatorKey":"not_unique","validatorName":null,"value":"suraj.chiefEngineer@epam.in"}],"fields":{"email":"suraj.chiefEngineer@epam.in"},"name":"SequelizeUniqueConstraintError","original":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["suraj.chiefEngineer@epam.in","$2b$10$Nfmgei.T90n3LkOj31Aw5eYfjQhPRKV0RsyldE3DrfuklFoUicEZe","2024-07-07 09:15:40","2024-07-07 09:15:40"],"sql":"INSERT INTO `Users` (`id`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?);","sqlMessage":"Duplicate entry 'suraj.chiefEngineer@epam.in' for key 'Users.email'","sqlState":"23000"},"parent":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["suraj.chiefEngineer@epam.in","$2b$10$Nfmgei.T90n3LkOj31Aw5eYfjQhPRKV0RsyldE3DrfuklFoUicEZe","2024-07-07 09:15:40","2024-07-07 09:15:40"],"sql":"INSERT INTO `Users` (`id`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?);","sqlMessage":"Duplicate entry 'suraj.chiefEngineer@epam.in' for key 'Users.email'","sqlState":"23000"},"sql":"INSERT INTO `Users` (`id`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?);"}},"level":"error","message":"Service error in creating user","service":"user-service","timestamp":"2024-07-07 14:45:41"}
+{"error":{"error":{"errors":[{"instance":{"createdAt":"2024-07-07T09:15:40.108Z","email":"suraj.chiefEngineer@epam.in","id":null,"password":"$2b$10$Nfmgei.T90n3LkOj31Aw5eYfjQhPRKV0RsyldE3DrfuklFoUicEZe","updatedAt":"2024-07-07T09:15:40.108Z"},"message":"email must be unique","origin":"DB","path":"email","type":"unique violation","validatorArgs":[],"validatorKey":"not_unique","validatorName":null,"value":"suraj.chiefEngineer@epam.in"}],"fields":{"email":"suraj.chiefEngineer@epam.in"},"name":"SequelizeUniqueConstraintError","original":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["suraj.chiefEngineer@epam.in","$2b$10$Nfmgei.T90n3LkOj31Aw5eYfjQhPRKV0RsyldE3DrfuklFoUicEZe","2024-07-07 09:15:40","2024-07-07 09:15:40"],"sql":"INSERT INTO `Users` (`id`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?);","sqlMessage":"Duplicate entry 'suraj.chiefEngineer@epam.in' for key 'Users.email'","sqlState":"23000"},"parent":{"code":"ER_DUP_ENTRY","errno":1062,"parameters":["suraj.chiefEngineer@epam.in","$2b$10$Nfmgei.T90n3LkOj31Aw5eYfjQhPRKV0RsyldE3DrfuklFoUicEZe","2024-07-07 09:15:40","2024-07-07 09:15:40"],"sql":"INSERT INTO `Users` (`id`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?);","sqlMessage":"Duplicate entry 'suraj.chiefEngineer@epam.in' for key 'Users.email'","sqlState":"23000"},"sql":"INSERT INTO `Users` (`id`,`email`,`password`,`createdAt`,`updatedAt`) VALUES (DEFAULT,?,?,?,?);"}},"level":"error","message":"Error in create user","service":"user-service","timestamp":"2024-07-07 14:45:41"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-07 14:46:01","user":{"email":"suraj.chiefEngineer@epam.in","id":16}}
+{"email":"suraj.chiefEngineer@epam.in","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-07 14:46:01"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-07 14:46:01"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in validating token","service":"user-service","timestamp":"2024-07-07 14:47:37"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Service error in token verification","service":"user-service","timestamp":"2024-07-07 14:47:37"}
+{"error":{"message":"jwt must be provided","name":"JsonWebTokenError"},"level":"error","message":"Error in authentication","service":"user-service","timestamp":"2024-07-07 14:47:37"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:16","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:17","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:48:17"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:26","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:29","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:48:29"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:32","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:34","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:48:34"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:36","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:36","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:48:36"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:38","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:39","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:48:39"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:41","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:48:42","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:48:42"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:49:52","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:49:52","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:49:52"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:49:54","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:49:55","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:49:55"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:49:56","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:49:56","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:49:56"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:52:45","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:52:46","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:52:46"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:52:49","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:52:49","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:52:49"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:52:52","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzQzNzYxLCJleHAiOjE3MjAzNDczNjF9.RgZur2IYo-Wl6DwHTKUBBH06IP8Q9HsVBt0GUPwNpMc"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 14:52:52","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 14:52:52"}
+{"level":"info","message":"Token created successfully","service":"user-service","timestamp":"2024-07-07 19:50:27","user":{"email":"suraj.chiefEngineer@epam.in","id":16}}
+{"email":"suraj.chiefEngineer@epam.in","level":"info","message":"JWT created successfully for user","service":"user-service","timestamp":"2024-07-07 19:50:27"}
+{"level":"info","message":"User signed in successfully","service":"user-service","timestamp":"2024-07-07 19:50:27"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 19:50:30","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InN1cmFqLmNoaWVmRW5naW5lZXJAZXBhbS5pbiIsImlkIjoxNiwiaWF0IjoxNzIwMzYyMDI3LCJleHAiOjE3MjAzNjU2Mjd9.V1ozLL5KFebzOrY6YGuAkIKRn6OcObNUBil1CLtd9RA"}
+{"level":"info","message":"Token verified successfully","service":"user-service","timestamp":"2024-07-07 19:50:30","userId":16}
+{"level":"info","message":"User authenticated successfully","service":"user-service","timestamp":"2024-07-07 19:50:30"}
