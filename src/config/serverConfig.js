@@ -12,4 +12,7 @@ module.exports = {
     DEV_DATABASE: process.env.DEV_DATABASE,
     DEV_HOST: process.env.DEV_HOST,
     DEV_PORT: process.env.DEV_PORT,
+    EMAIL_SERVICE : process.env.EMAIL_SERVICE,
+    EMAIL_USER : process.env.EMAIL_USER,      
+    EMAIL_PASS : process.env.EMAIL_PASS
 }

@@ -58,7 +58,7 @@ class UserService {
                 throw { error: "No user with the corresponding token exists" };
             }
             logger.info('Token verified successfully', { userId: user.id });
-            return user.id;
+            return user;
         } catch (error) {
             logger.error('Service error in token verification', { token, error });
             throw error;
@@ -98,7 +98,7 @@ class UserService {
 
     async isAdmin(userId) {
         try {
-            const isAdmin = await this.userRepository.isAdmin(userId);
+            const isAdmin = await this.userRepository.isAdmin(userId);            
             logger.info('Admin status checked successfully', { userId, isAdmin });
             return isAdmin;
         } catch (error) {
@@ -106,6 +106,7 @@ class UserService {
             throw error;
         }
     }
+    
 }
 
 module.exports = UserService;

@@ -2,7 +2,6 @@
 
 module.exports = {
   async up (queryInterface, Sequelize) {
-    // Fetch the user and role IDs that you want to associate
     const users = await queryInterface.sequelize.query(
       `SELECT id from Users;`
     );
@@ -14,8 +13,7 @@ module.exports = {
     const userRows = users[0];
     const roleRows = roles[0];
 
-    // Assuming we want to assign the 'ADMIN' role to the first user
-    const adminRole = roleRows.find(role => role.name === 'ADMIN');
+    const adminRole = roleRows.find(role => role.name === 'Admin');
 
     await queryInterface.bulkInsert('User_Roles', [
       {
