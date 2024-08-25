@@ -19,12 +19,12 @@ const validateUserAuthentication = (req, res, next) => {
 };
 
 const validateIsAdminRequest = (req, res, next) => {
-    if (!req.body.id) {
+    if (!req.params.id) {
         logger.error('User id not given');
         return res.status(ClientErrorCodes.BAD_REQUEST).json({
             success: false,
             data: {},
-            message: 'User id not given',
+            message: `User id ${req.params.id} not given`,
         });
     }
     next();

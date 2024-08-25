@@ -18,6 +18,7 @@ let sequelize = new Sequelize(
     host: process.env.DEV_HOST,
     port: process.env.DEV_PORT || 3306,
     dialect: 'mysql',
+    logging: console.log, 
   }
   
 );
