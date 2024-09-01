@@ -33,10 +33,19 @@ module.exports = (sequelize, DataTypes) => {
       validate: {
         len: [3, 300]
       }
+    },
+    resetToken: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    resetTokenExpiry: {
+      type: DataTypes.DATE,
+      allowNull: true,
     }
   }, {
     sequelize,
     modelName: 'User',
+    tableName: 'Users'
   });
 
   User.beforeCreate((user) => {

@@ -2,7 +2,7 @@
 
 const logger = require('../utils/logger');
 const { ClientErrorCodes } = require('../utils/error-codes');
-const { userSchema, roleSchema } = require('../utils/validation-schemas');
+const { userSchema} = require('../utils/validation-schemas');
 
 const validateUserAuthentication = (req, res, next) => {
     const { error } = userSchema.validate(req.body);

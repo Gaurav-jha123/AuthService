@@ -105,10 +105,46 @@ const isAdmin = async (req, res) => {
     }
 };
 
+const requestPasswordReset = async (req, res) => {
+    try {
+        const email = req.body.email;
+        await userService.requestPasswordReset(email);
+        return res.status(200).json({
+            success: true,
+            message: 'Password reset link sent to your email',
+        });
+    } catch (error) {
+        return res.status(500).json({
+            message: 'Something went wrong',
+            success: false,
+            err: error.message,
+        });
+    }
+};
+
+const resetPassword = async (req, res) => {
+    try {
+        const token = req.query.token;
+        const newPass = req.body.Password;
+        console.log(token);
+        console.log(newPass);    
+        const newPassword = await userService.resetPassword(token, newPass);
+        return res.status(200).send(`Your new password is changed`);
+    } catch (error) {
+        return res.status(500).json({
+            message: 'Something went wrong',
+            success: false,
+            err: error.message,
+        });
+    }
+};
+
 
 module.exports = {
     create,
     signIn,
     isAuthenticated,
     isAdmin,
+    requestPasswordReset,
+    resetPassword
 };

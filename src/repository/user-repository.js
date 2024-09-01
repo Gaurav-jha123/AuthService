@@ -10,10 +10,9 @@ class UserRepository {
       return user;
     } catch (error) {
       if (error.name == 'SequelizeValidationError') {
-        throw new ValidationError(error);
+        throw new Error(error);
 
       }
-      console.log("Something went wrong on repository layer");
       throw { error };
     }
   }
@@ -81,6 +80,34 @@ class UserRepository {
       console.log("Something went wrong in repository layer");
       throw error;
     }
+  }
+
+
+
+  async savePasswordResetToken(userId, token, expiresAt) {
+    return await User.update(
+      { resetToken: token, resetTokenExpiry: expiresAt },
+      { where: { id: userId } }
+    );
+  }
+
+  async findUserByToken(token) {
+    const user = await User.findOne({
+      where: {
+        resetToken: token,
+        //resetTokenExpiry: { [Op.gt]: new Date() },
+      },
+    });
+    console.log(`the user for tge token ${token} is this user ${user}`);
+    
+    return user;
+  }
+
+  async updatePassword(userId, hashedPassword) {
+    return await User.update(
+      { password: hashedPassword, resetToken: null, resetTokenExpiry: null },
+      { where: { id: userId } }
+    );
   }
 
 }
