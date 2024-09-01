@@ -3,6 +3,11 @@ const logger = require('../utils/logger');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const { JWT_KEY } = require('../config/serverConfig');
+const nodemailer = require('nodemailer');
+const crypto = require('crypto');
+const { EMAIL_USER, EMAIL_PASS, EMAIL_SERVICE } = require('../config/serverConfig')
+const { SALT } = require('../config/serverConfig');
+
 
 class UserService {
     constructor() {
@@ -98,7 +103,7 @@ class UserService {
 
     async isAdmin(userId) {
         try {
-            const isAdmin = await this.userRepository.isAdmin(userId);            
+            const isAdmin = await this.userRepository.isAdmin(userId);
             logger.info('Admin status checked successfully', { userId, isAdmin });
             return isAdmin;
         } catch (error) {
@@ -106,7 +111,56 @@ class UserService {
             throw error;
         }
     }
-    
+
+    async requestPasswordReset(email) {
+        const user = await this.userRepository.getByEmail(email);
+        if (!user) throw new Error('User not found');
+
+        // Generate reset token
+        const token = crypto.randomBytes(32).toString('hex');
+        const expirationDate = new Date();
+        expirationDate.setHours(expirationDate.getHours() + 1); 
+
+        // Store the token and expiration date in the Users table
+        await this.userRepository.savePasswordResetToken(user.id, token, expirationDate);
+
+        // Send the email
+        const transporter = nodemailer.createTransport({
+            service: EMAIL_SERVICE,
+            host: "smtp.gmail.com",
+            port: 465,
+            secure: true,
+            auth: {
+                user: EMAIL_USER,
+                pass: EMAIL_PASS
+            }
+        });
+        await transporter.sendMail({
+            host: "smtp.gmail.com",
+            port: 465,
+            from : EMAIL_USER,
+            to: email,
+            subject: 'Password Reset Request',
+            text: `Please use the following Token to reset your password: ${token}`,
+        });
+    }
+
+    async resetPassword(token, newPassword) {
+        // Validate the token
+        const user = await this.userRepository.findUserByToken(token);
+        console.log(`the user is ${user}`);
+        
+        if (!user) throw new Error('Invalid or expired token retry sending a request to reset your password');
+        console.log(`new pass beofre has is ${user}`);
+        
+        const newPass = bcrypt.hashSync(newPassword , SALT);
+        // Update the user's password and clear the token
+        await this.userRepository.updatePassword(user.id, newPass);
+        console.log(`new pass after hashing is ${newPass}`);
+        
+        return newPass; // Send the new password to the user
+    }
+
 }
 
 module.exports = UserService;
